@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+
+    <h2>Aşağıdaki formu doldurunuz.</h2>
+<form>
+    <fieldset>
+        <legend>Kişisel Bilgiler:</legend>
+        <div>
+            <label for="name">İsim:</label>
+            <input type="text" id="name">
+            <label for="surname">Soyisim:</label>
+            <input type="text" id="surname">
+        </div>
+        <div>
+            <label for="gender">Cinsiyet:</label>
+            <input type="radio" name="gender" value="male">Erkek
+            <input type="radio" name="gender" value="female">Kadın
+        </div>
+        <div>
+            <label for="fruits">En sevdiğiniz meyve:</label>
+            <select id="fruits">
+                <option value="">Seçiniz..</option>
+                <optgroup label="Yaz Meyveleri">
+                    <option value="Watermelon">Karpuz</option>
+                    <option value="Strawberry">Çilek</option>
+                    <option value="Cherry">Kiraz</option>
+                    <option value="Melon">Kavun</option>
+                    <option value="Peach">Şeftali</option>
+                </optgroup>
+                <optgroup label="Kış Meyveleri">
+                    <option value="Apple">Elma</option>
+                    <option value="Orange">Portakal</option>
+                    <option value="Pomegranate">Nar</option>
+                    <option value="Ayva">Ayva</option>
+                </optgroup>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>İletişim Bilgileri:</legend>
+        <div>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="addres">Adres:</label>
+            <textarea id="address" cols="35" rows="4"></textarea>
+        </div>
+    </fieldset>
+    <div>
+        <label for="password">Şifre:</label>
+        <input type="password" id="password">
+    </div>
+    <div>
+        <button type="submit">Gönder</button>
+        <button type="reset">Temizle</button>
+    </div>
+
+</form>
+</body>
+</html>
