@@ -1,0 +1,36 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+.navbar {
+    box-shadow: 0 4px 2px -2px gray;
+}
+.jumbotron {
+    width: 100%;
+    padding: 4rem 2rem;
+    background-color: #007bff;
+    color: white;
+}
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+img {
+    border-radius: 8px;
+}
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #004094;
+}
